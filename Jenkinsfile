@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-      AWS_ACCOUNT_ID="wonsup.jung.aws@gmail.com"
+      AWS_ACCOUNT_ID="863586588248"
       AWS_DEFAULT_REGION="us-east-1" 
       CLUSTER_NAME="default"
       SERVICE_NAME="nodejs-container-service"
