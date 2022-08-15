@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-      AWS_ACCOUNT_ID="AKIA4SEOFSZMH5CU4TO3"
+      AWS_ACCOUNT_ID="wonsup.jung.aws@gmail.com"
       AWS_DEFAULT_REGION="us-east-1" 
       CLUSTER_NAME="default"
       SERVICE_NAME="nodejs-container-service"
@@ -20,7 +20,7 @@ pipeline {
       steps{
         script {
           sh 'npm install'
-	  sh 'npm test -- --watchAll=false'
+	        sh 'npm test -- --watchAll=false'
         }
       }
     }
